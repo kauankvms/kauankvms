@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%">
+  <defs>
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FF88;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background code lines -->
+  <g opacity="0.1" fill="#58A6FF" font-family="monospace" font-size="12">
+    <text x="50" y="30" class="code-line">def build_system():</text>
+    <text x="50" y="50" class="code-line">        return solve_problems()</text>
+    <text x="50" y="70" class="code-line">class ITSupport:</text>
+    <text x="50" y="90" class="code-line">    pass</text>
+    <text x="50" y="110" class="code-line">import automation</text>
+    <text x="50" y="130" class="code-line">def improve_processes():</text>
+    <text x="50" y="150" class="code-line">    support_users()</text>
+  </g>
+  
+  <!-- Main text with neon effect -->
+  <text x="400" y="90" text-anchor="middle" 
+        font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        fill="url(#neonGradient)" filter="url(#glow)">
+    Kauan Vitor
+  </text>
+  
+  <!-- Subtitle with typing effect -->
+  <text x="400" y="130" text-anchor="middle" 
+        font-family="monospace" font-size="20" fill="#58A6FF">
+    &lt;/&gt; IT Support Analyst · Automation
+    <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Animated cursor -->
+  <rect x="590" y="115" width="2" height="25" fill="#58A6FF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="3" fill="#00D4FF">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="80" r="3" fill="#A855F7">
+    <animate attributeName="r" values="3;5;3" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="150" r="3" fill="#00FF88">
+    <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="140" r="3" fill="#00D4FF">
+    <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
