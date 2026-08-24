@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:021757,50:003698,100:006DFF&height=150&section=header&text=Kauan%20Vitor&fontSize=40&animation=fadeIn&fontColor=FFFFFF&reversal=true" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:021757,50:003698,100:006DFF&height=150&section=header&text=Kauan%20Vitor&fontSize=40&fontAlignY=38&animation=fadeIn&fontColor=FFFFFF&reversal=true" alt="Header" />
 </p>
 
 <h3 align="center">IT Support Analyst · Infrastructure · Automation</h3>
